@@ -33,6 +33,5 @@ mkdir -p ~/.config/{bspwm,sxhkd}
 cp /home/j/bspwm/examples/bspwmrc ~/.config/bspwm/
 cp /home/j/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 chmod u+x ~/.config/bspwm/bspwmrc
-
-
+echo "sxhkd & urxvt & exec bspwm" >> .xinitrc
 echo "BSPWM install finished!"
