@@ -10,8 +10,8 @@ cd ../sxhkd && make && sudo make install
 
 # running bspwm
 mkdir -p ~/.config/{bspwm,sxhkd}
-cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
-cp /usr/local/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+cp /home/j/bspwm/examples/bspwmrc ~/.config/bspwm/
+cp /home/j/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 chmod u+x ~/.config/bspwm/bspwmrc
 
 
