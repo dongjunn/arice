@@ -1,13 +1,5 @@
-: '
-RICE for ubuntu mate 18.04
-This is a script to install the dependencies for my rice
-make sure to setup sudo password before you run this script
-`sudo -i passwd` or `sudo passwd root` 
-' 
-su -
 sudo apt update && sudo apt install vim sudo
 sudo apt install git stow
-adduser jun sudo
 
 # installing BSPWM and related core pacakages
 sudo apt install bspwm sxhkd xterm suckless-tools feh compton dunst libnotify-bin lemonbar xdo amixer acpi gnome-keyring
@@ -38,10 +30,6 @@ sudo apt install xul-ext-sogo-connector
 
 # Additional lang support and fonts
 sudo apt install hunspell {a,hun}spell-el
-sudo apt-get install language-pack-ja  
-sudo apt-get install japan* 
-sudo apt-get install language-pack-ko
-sudo apt-get install korean*
 sudo apt-get install fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
 
 # firefox setup might replace with chrome fam
