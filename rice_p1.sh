@@ -1,4 +1,4 @@
-:'
+: '
 RICE for ubuntu mate 18.04
 This is a script to install the dependencies for my rice
 make sure to setup sudo password before you run this script
