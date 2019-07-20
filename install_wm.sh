@@ -1,6 +1,5 @@
-: '
-To start bspwm at login add `exec bspwm` to the bottom of your ~/.xinitrc or ~/.xprofile (depending on how your launch your X/Display manager). The example bspwmrc launches sxhkd for you.
-'
+sudo add-apt-repository ppa:jasonpleau/rofi
+sudo apt update
 sudo apt-get update
 
 sudo apt-get install build-essential
@@ -19,9 +18,11 @@ sudo apt-get install libxcb-xinerama0-dev \
                      libasound2-dev \
                      libxft-dev \
                      libx11-xcb-dev \
-                     vim
-                     
-sudo apt-get install rxvt-unicode
+                     vim \
+                     rxvt-unicode \
+                     rofi
+				                     
+
 git clone https://github.com/baskerville/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm && make && sudo make install
@@ -32,4 +33,6 @@ mkdir -p ~/.config/{bspwm,sxhkd}
 cp /home/j/bspwm/examples/bspwmrc ~/.config/bspwm/
 cp /home/j/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 chmod u+x ~/.config/bspwm/bspwmrc
-echo "Make sure to create the .xinit!"
+
+
+echo "BSPWM install finished!"
