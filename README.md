@@ -1,2 +1,3 @@
 # arice
-https://protesilaos.com/ rice config
+https://protesilaos.com/ book config
+
