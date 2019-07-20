@@ -21,7 +21,7 @@ sudo apt-get install libxcb-xinerama0-dev \
                      libx11-xcb-dev \
                      vim
                      
-
+sudo apt-get install rxvt-unicode
 git clone https://github.com/baskerville/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm && make && sudo make install
@@ -32,5 +32,4 @@ mkdir -p ~/.config/{bspwm,sxhkd}
 cp /home/j/bspwm/examples/bspwmrc ~/.config/bspwm/
 cp /home/j/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 chmod u+x ~/.config/bspwm/bspwmrc
-
-
+echo "Make sure to create the .xinit!"
